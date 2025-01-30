@@ -1,0 +1,96 @@
+/* Container */
+/* .container {
+    margin: 0 auto;
+    padding: 1.25rem;
+  } */
+
+
+h2 {
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 1.25rem;
+}
+
+h3 {
+font-size: 1.25rem;
+font-weight: 600;
+margin-bottom: 0.75rem;
+}
+
+
+.list-container {
+display: flex;
+justify-content: space-between;
+background-color: #0056b3;
+}
+
+.left {
+width: 50%;
+padding-right: 1.25rem;
+}
+
+.left label {
+display: block;
+margin-bottom: 0.5rem;
+font-size: 1.125rem;
+font-weight: 500;
+}
+
+.left select {
+width: 100%;
+padding: 0.5rem;
+margin-bottom: 1rem;
+border: 1px solid #ccc;
+border-radius: 0.25rem;
+}
+
+.left button {
+width: 100%;
+padding: 0.5rem;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 0.25rem;
+cursor: pointer;
+}
+
+.left button:hover {
+background-color: #0056b3;
+}
+
+/* Right div for list of available hotels */
+.right {
+width: 50%;
+padding-left: 1.25rem;
+overflow-y: scroll;
+max-height: 100vh;
+}
+
+.right label {
+display: block;
+margin-bottom: 0.5rem;
+font-size: 1.125rem;
+font-weight: 500;
+}
+
+.right select, .right input {
+width: 100%;
+padding: 0.5rem;
+margin-bottom: 1rem;
+border: 1px solid #ccc;
+border-radius: 0.25rem;
+}
+
+.right button {
+width: 100%;
+padding: 0.5rem;
+background-color: #28a745;
+color: white;
+border: none;
+border-radius: 0.25rem;
+cursor: pointer;
+}
+
+.right button:hover {
+background-color: #218838;
+}
